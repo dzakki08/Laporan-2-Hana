@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+.medsos{
+    padding: 5px 0;
+    background-color:darkolivegreen;
+}
+.medsos ul li{
+    display:inline-block;
+    color: #fff;
+    margin-right: 10px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.container:after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+header{
+
+}
+header h1{
+    float: left;
+    padding: 15px 0;
+
+}
+header ul {
+    float: right;
+}
+header ul li {
+   display: inline-block;
+   
+}
+header ul li a {
+    padding: 25px 20 px;
+    display: inline-block;
+    
+}
+header ul li a:hover{
+    background-color: darkolivegreen;
+    color: #fff;
+}
+.actif{
+    background-color: darkolivegreen;
+    color: #fff;
+}
+.banner{
+    height: 60vh;
+    border: 1px 0;
+    color: #000000;
+    background-image: url('BG.jpeg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h2{
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25;
+    border: 3px solid #fff;
+}
+.slogan {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: lightgray;
+    font-size: 18px;
+}
+
+.banner:after{
+    content:'' ;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(85, 107, 47, 0.336);
+
+}
+section{
+    padding:  50px 0;
+}
+section h3{
+    text-align: center;
+    
+    color: darkolivegreen;
+}
+.about p{
+    color: black;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.button {
+    background-color: #4CAF50;
+    /* Warna latar belakang */
+    border: none;
+    color: white;
+    /* Warna teks */
+    padding: 15px 32px;
+    /* Padding (ruang di dalam tombol) */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    /* Opsional: untuk membuat sudut tombol membulat */
+}
+
+.button:hover {
+    background-color: #3e8e41;
+    /* Warna latar belakang saat kursor diarahkan ke tombol */
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #3e8e41;
+}
